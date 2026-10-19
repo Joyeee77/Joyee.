@@ -1,0 +1,13 @@
+/* Keep the chapter heading on a single line and make resident speech legible. */
+#chapter{width:min(720px,88vw);max-width:88vw;box-sizing:border-box}
+#chapterTitle{white-space:nowrap;font-size:clamp(22px,2.4vw,32px);line-height:1.4;margin:8px 0 10px;letter-spacing:.02em}
+#task{max-width:620px;font-size:15px;line-height:1.8;color:#d5ded8}
+.label.bubble{font-size:17px;line-height:1.75;max-width:min(350px,78vw);padding:12px 17px;color:#fff5dc;background:#102733f5;border-color:#b9af7e99;box-shadow:0 3px 18px #06131c66}
+.label.bubble:after{border-top-color:#102733}
+#conversation{width:min(760px,90%);background:#102530fa}
+#speaker{font-size:15px;color:#e6cd89}
+#speech{font-size:19px;line-height:1.85;color:#fff4dd}
+#next{font-size:14px;padding:9px 0}
+#caption{font-size:16px;line-height:1.8;color:#fff2d5;text-shadow:0 2px 5px #07131e,0 0 12px #07131e}
+@media(max-width:700px){#chapter{width:92vw;max-width:92vw;padding:10px 12px}#chapterTitle{font-size:clamp(15px,4.3vw,22px);letter-spacing:0}#task{font-size:13px;max-width:88vw}.label.bubble{font-size:15px;padding:10px 13px;max-width:72vw}#speech{font-size:16px;line-height:1.75}#speaker{font-size:13px}#caption{font-size:14px}#compass{top:auto;bottom:190px}}
+#intro h1{font-size:clamp(24px,4.5vw,62px);white-space:nowrap;letter-spacing:.03em}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>缝隙世界的七重梦</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="night.css"><link rel="stylesheet" href="readability.css"><link rel="stylesheet" href="final.css"></head><body>
+<canvas id="world" tabindex="0" aria-label="第一人称微民世界，WASD移动，拖动鼠标观察"></canvas><div class="vignette"></div>
+<header><a class="brand" href="./"><span class="mark">隙</span><span>缝隙世界的七重梦<small>THE WORLD BETWEEN THINGS</small></span></a><nav><button id="sound">声音 关</button><button id="help">操作指南</button></nav></header>
+<main id="intro"><div class="eyebrow">借 物 而 居 · 夜 游</div><h1>缝隙世界的七重梦</h1><p>一本书的背面，一只茶杯的阴影。<br>点击缝隙，进入正在生活的微民世界。</p><button class="primary" id="begin">点击桌上的缝隙 ↗</button><small>网页版第一人称体验 · WASD 行走 · 拖动鼠标观察</small></main>
+<aside id="chapter" hidden><div id="chapterNo" class="eyebrow"></div><h2 id="chapterTitle"></h2><p id="task"></p><div id="progress"></div></aside>
+<div id="reticle" hidden><i></i></div><div id="worldlabels"></div>
+<div id="hint" hidden></div><button id="action" hidden></button>
+<section id="conversation" hidden aria-live="polite"><div class="portrait"><span>⌁</span></div><div class="words"><div id="speaker"></div><p id="speech"></p><button id="next">继续 · E →</button></div></section>
+<div id="caption" aria-live="polite"></div>
+<div id="compass" hidden><span>往这里看</span><b>↑</b><small></small></div>
+<footer><span id="place">序章 / 桌上的另一种生活</span><span id="keys">WASD 移动　·　拖动鼠标环顾　·　E 互动</span><button id="repeat" hidden>再听听</button></footer>
+<dialog id="guide"><button id="close" class="close">×</button><div class="eyebrow">暂 歇</div><h2>不急，世界还在。</h2><p><b>WASD / 方向键</b> · 走动<br><b>按住鼠标拖动</b> · 环顾<br><b>E</b> · 对话 / 拿起 / 牵手</p><p>如果一时不知道往哪里去，可以看看同行的人。他们会招手，也会停下来等你。</p><p>拼图下，等人类移开目光，再一起挪动。<br>桌布边，E 牵手，W 向下、S 向上。<br>书页间，挪动脚步、转头望向断开的尺沿。</p><button class="primary" id="resume">回到他们身边</button><button class="textbtn" id="restart">重新遇见</button></dialog>
+<button id="touchAct" aria-label="互动">E · 互动</button><div id="touch"><button data-key="w" aria-label="前进">↑</button><div><button data-key="a" aria-label="左移">←</button><button data-key="s" aria-label="后退">↓</button><button data-key="d" aria-label="右移">→</button></div></div><div id="fade"></div>
+<script src="depth.js"></script><script src="app.js?v=carry-3"></script><script src="final.js?v=carry-3"></script></body></html>
